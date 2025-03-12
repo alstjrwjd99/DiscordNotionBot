@@ -27,9 +27,10 @@ git clone https://github.com/alstjrwjd99/DiscordNotionBot.git
 
 ### 2. 환경 변수 설정 (.env 파일)
 
-동일한 폴더 내에 .env 파일을 생성하고 다음 값을 추가하세요. ( 맨 하단 API key 발급 받는 방법 참조 )
+동일한 폴더 내에 .env 파일을 생성하고 다음 값을 추가하세요. (맨 하단 [API Key 발급 방법](#api-key-발급-방법) 참조)
 
 ```
+
 BOT_TOKEN=YOUR_DISCORD_BOT_TOKEN
 CHANNEL_ID=YOUR_DISCORD_CHANNEL_ID
 NOTION_TOKEN=YOUR_NOTION_INTEGRATION_TOKEN
@@ -59,12 +60,12 @@ npm start
 node : v23.0.0
 npm : 10.9.0
 
-## ✅ API Key 발급 방법 
+## API Key 발급 방법
 
 ### Discord Bot Token (BOT_TOKEN)
 
 디스코드 봇을 생성하고 토큰을 발급받는 방법입니다.
-1.	Discord Developer Portal 에 접속합니다.
+1.	[Discord Developer Portal](https://discord.com/developers/docs/intro) 에 접속합니다.
 2.	New Application 버튼을 클릭한 후 봇의 이름을 입력하고 생성합니다.
 3.	좌측 메뉴에서 Bot 탭을 선택한 후 Add Bot을 클릭합니다.
 4.	Reset Token을 클릭해 Bot Token을 생성하고 복사합니다.
