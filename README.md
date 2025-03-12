@@ -90,5 +90,5 @@ Notion과 연동하기 위한 통합 토큰을 발급받는 방법입니다.
 ### Notion Database ID (DATABASE_ID)
 
 Notion의 Database ID를 얻는 방법입니다.
-1.	Notion에서 데이터베이스를 생성합니다.
+1.	Notion에서 데이터베이스를 생성합니다. (속성값은 반드시 Name,Start,End가 있어야 합니다)
 2.	데이터베이스 페이지에서 주소(URL)에서 / 뒤의 Database ID를 복사합니다.
